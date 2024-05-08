@@ -255,7 +255,7 @@
             var tab = document.getElementById("tabella_telefonata");
             var righe = tab.getElementsByTagName("tr");
 
-            if (!rigaDaCancellare || rigaDaCancellare != telefonate.length) {
+            if (!rigaDaCancellare) {
                 //Alert sound
                 var audio = document.getElementById("alertSound");
                 audio.play();
@@ -382,7 +382,7 @@
             /*            var tr = tab.getElementsByTagName("tr");*/
             var righe = tab.getElementsByTagName("tr");
 
-            if (!rigaDaCancellare || rigaDaCancellare != appuntamenti.length) {
+            if (!rigaDaCancellare) {
                 //Alert sound
                 var audio = document.getElementById("alertSound");
                 audio.play();
